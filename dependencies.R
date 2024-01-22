@@ -1,3 +1,4 @@
+suppressPackageStartupMessages({
 if (!require('randomForest')){install.packages('randomForest')}; library(randomForest)
 if (!require('datasets')){install.packages('datasets')}; library(datasets)
 if (!require('caret')){install.packages('caret')}; library(caret)
@@ -16,5 +17,5 @@ if (!require('dplyr')){install.packages('dplyr')}; library(dplyr)
 if (!require('ROCR')){install.packages('ROCR')}; library(ROCR)
 if (!require('pROC')){install.packages('pROC')}; library(pROC)
 if (!require('MLmetrics')){install.packages('MLmetrics')}; library(MLmetrics)
-
+})
 
